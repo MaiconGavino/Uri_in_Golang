@@ -14,5 +14,9 @@ func main() {
 	areaQua := math.Pow(entB, 2)
 	areaRet := entA * entB
 
-	fmt.Printf("TRIANGULO: %.3f\nCIRCULO: %.3f\nTRAPEZIO: %.3f\nQUADRADO: %.3f\nRETANGULO: %.3f\n", areaTri, areaCir, areaTra, areaQua, areaRet)
+	fmt.Printf("TRIANGULO: %.3f\n", areaTri)
+	fmt.Printf("CIRCULO: %.3f\n", areaCir)
+	fmt.Printf("TRAPEZIO: %.3f\n", areaTra)
+	fmt.Printf("QUADRADO: %.3f\n", areaQua)
+	fmt.Printf("RETANGULO: %.3f\n", areaRet)
 }
